@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<head>	
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo:300,700|Roboto:300,700">
+	<title>Christian Doyle - Full Stack Devloper Portfolio</title>
 </head>
+<div #body-wrapper>
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+	<header>
+		<h1>Christian Doyle - Full Stack Developer Portfolio</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h2>About Me</h2>
+		<section id="bio" class="grid bio-grid">
+			<article class="content-box bio-box">
+				<p>Hiya! I'm Chris and I'm training to be a full stack developer. I enjoy learning to code and would like to make software, especially games, professionally.</p><br>
+				<p>Below is a list of technologies that I have studied and worked with. Some of which, you will find examples of in the <a href="projects.html">projects</a> section.</p><br>
+				<p>Outside of coding I love tabletop games, especialy D&D. I also enjoy video production, football and video games. </p><br>
+				<p>Thanks for visiting my site, you can get in touch with me <a href="contact.html">here</a>.</p><br>
+			</article>
+			<article id="portrait-box" class="content-box bio-box">
+				<img id="portrait" src="images/profile.jpg">				
+			</article>
+		</section>
+
+		<h2>Skills</h2>
+		<section id="skills" class="grid skill-grid">
+			<article class="content-box skill-box hover-reveal" data-tooltip="HTML5">
+				<img class="skill-icon" src="images/html5.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="CSS3">
+				<img class="skill-icon" src="images/css3.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="JavaScript">
+				<img class="skill-icon" src="images/javascript.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="jQuery">
+				<img class="skill-icon" src="images/jquery.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="node.js">
+				<img class="skill-icon" src="images/node-js.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="React">
+				<img class="skill-icon" src="images/react.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="Redux">
+				<img class="skill-icon" src="images/redux.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="SQL">
+				<img class="skill-icon" src="images/sql.jpg">
+			</article>	
+			<article class="content-box skill-box hover-reveal" data-tooltip="PHP">
+				<img class="skill-icon" src="images/php.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="Java">
+				<img class="skill-icon" src="images/java.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="C#">
+				<img class="skill-icon" src="images/csharp.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="GitHub">
+				<img class="skill-icon" src="images/github.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="Python">
+				<img class="skill-icon" src="images/python.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="Unity">
+				<img class="skill-icon" src="images/unity.png">
+			</article>
+			<article class="content-box skill-box hover-reveal" data-tooltip="Premiere Pro">
+				<img class="skill-icon" src="images/premiere-pro.png">
+			</article>		
+		</section>
+		<div class="div-tooltip"></div>
+	</main>
+	
+	<footer>Made in Manchester - Copyright&copy; 2021</footer>
+
+	<script src="main.js"></script>
 </body>
+</div>
 </html>

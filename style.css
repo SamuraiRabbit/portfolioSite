@@ -1,0 +1,133 @@
+/* Universal Styles */
+
+* { box-sizing: border-box; 
+    margin: auto;
+    max-width: 1000px;
+}
+
+body {  background-color: #0b0c10;
+        color: #c5c6c7;
+        font-family: 'Roboto', sans-serif; }
+
+header {   font-size: 200%;
+            color: #66fcf1;
+            text-align: center;
+            font-family: 'Chivo', sans-serif;
+            padding: 20px;
+            background-color: #1f2833;
+            margin: 20px;
+            border-radius: 10px; 
+}
+        
+nav ul  {   list-style: none;
+            text-align: center;
+            font-size: 120%;
+            font-family: 'Chivo', sans-serif; 
+}
+
+nav li  {   display: inline-block;
+            margin: 5px; 
+}
+
+nav a   {   text-decoration: none;
+            padding: 10px;
+            display: inline;
+            border-radius: 10px; 
+}
+
+nav a:link, a:visited { color: #45a29e; 
+}
+
+nav a:hover		{ color: #45a29e;
+                  background-color: #1f2833; 
+}
+
+h2  {   font-size: 150%;
+        color: #66fcf1;
+        text-align: center;
+        font-family: 'Chivo', sans-serif;
+        padding: 10px; 
+}
+
+p { font-size: 18px;
+    line-height: 1.5em;
+}
+
+footer  {   font-style: italic;
+            font-size: 70%; 
+            text-align: right;
+            padding: 20px; 
+            clear: both; 
+}    
+
+img {   border: solid 2px #45a29e;
+        border-radius: 10px; 
+}
+
+.grid { font-size: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));     
+        justify-items: space-around;       
+}
+
+.content-box {  display: block; 
+                background-color: #1f2833;
+                padding: 20px;
+                margin: 10px;
+                border-radius: 10px; 
+}
+
+/* Specific Styles */
+
+.bio-grid {
+    justify-items: center;
+}
+
+.bio-box {
+    max-width: 450px;
+    justify-content: center;
+}
+
+.skill-icon {
+    max-width: 100px;
+}
+
+.skill-box {
+    max-width: 150px;   
+    text-align: center;
+}
+
+.skill-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0.5em;
+    margin: 0.5em;;
+    grid-column-gap: 1em;;
+    justify-items: center;
+}
+
+#portrait {
+    max-width: 400px;
+}
+
+#portrait-box {
+    text-align: center;
+}
+
+.div-tooltip {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1f2833;
+    color: #c5c6c7;
+    border: solid 1px #45a29e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    z-index: 999999;
+}
+/* Colour Pallete:
+background colour: #0b0c10; 
+block background: #1f2833;
+body text colour: #c5c6c7;
+header colour: #66fcf1;
+icon/border colour: #45a29e; */
