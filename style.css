@@ -18,28 +18,16 @@ header {   font-size: 200%;
             margin: 20px;
             border-radius: 10px; 
 }
-        
-nav ul  {   list-style: none;
-            text-align: center;
-            font-size: 120%;
-            font-family: 'Chivo', sans-serif; 
+
+
+a   {   text-decoration: none;
 }
 
-nav li  {   display: inline-block;
-            margin: 5px; 
+a:link, a:visited { color: #45a29e; 
 }
 
-nav a   {   text-decoration: none;
-            padding: 10px;
-            display: inline;
-            border-radius: 10px; 
-}
-
-nav a:link, a:visited { color: #45a29e; 
-}
-
-nav a:hover		{ color: #45a29e;
-                  background-color: #1f2833; 
+a:hover	{ color: #45a29e;
+          background-color: #1f2833; 
 }
 
 h2  {   font-size: 150%;
@@ -78,6 +66,22 @@ img {   border: solid 2px #45a29e;
 }
 
 /* Specific Styles */
+
+nav ul  {   list-style: none;
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Chivo', sans-serif; 
+}
+
+nav li  {   display: inline-block;
+    margin: 5px; 
+}
+
+nav a {
+    padding: 10px;
+    display: inline;
+    border-radius: 10px; 
+}
 
 .bio-grid {
     justify-items: center;
