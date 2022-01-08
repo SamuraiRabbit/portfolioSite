@@ -1,4 +1,17 @@
-let setUpTooltip = function() {
+// This jQuery script replaces the 60 lines of JavaScript commented out below.
+
+$(document).ready(() => {
+
+    $('.skill-box').on('mouseenter', (event) => {
+        $(event.currentTarget).children().next('.tooltip').show(300);
+    });
+    $('.skill-box').on('mouseleave', (event) => {
+        $(event.currentTarget).children().next('.tooltip').hide(300);
+    });
+
+  });
+
+/* let setUpTooltip = function() {
     let tooltip = "";
     let tooltipDiv = document.querySelector(".div-tooltip");
     let tooltipElements = Array.from(document.querySelectorAll(".hover-reveal"));
@@ -56,3 +69,9 @@ let setUpTooltip = function() {
 }
 
 setUpTooltip();
+*/
+
+
+
+
+  

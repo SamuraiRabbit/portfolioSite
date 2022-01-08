@@ -117,17 +117,14 @@ nav a {
     text-align: center;
 }
 
-.div-tooltip {
-    opacity: 0;
+.tooltip {
+    display: none;
     position: absolute;
-    top: 0;
-    left: 0;
     background-color: #1f2833;
     color: #c5c6c7;
     border: solid 1px #45a29e;
     border-radius: 5px;
     padding: 10px 20px;
-    z-index: 999999;
 }
 /* Colour Pallete:
 background colour: #0b0c10; 
