@@ -20,10 +20,10 @@ The site consist of three pages:
 * Contact page - a contact form.
 
 ## Technologies Used
-* HTML ![html](./images/html.png)
-* JavaScript ![JavaScript](./images/javascript.png)
-* CSS ![css](./images/css.png)
-* PHP ![php](./images/php.png)
+* HTML ![html](./images/htmlSmall.png)
+* JavaScript ![JavaScript](./images/javascriptSmall.png)
+* CSS ![css](./images/cssSmall.png)
+* PHP ![php](./images/phpSmall.png)
 
 ## Setup
 * No setup required. Visit the site [here](https://samurairabbit.github.io/).
