@@ -126,6 +126,15 @@ nav a {
     border-radius: 5px;
     padding: 10px 20px;
 }
+
+
+@media (max-width: 480px) {
+    * { box-sizing: border-box; 
+        margin: auto;
+        max-width: 460px;
+    }
+}
+
 /* Colour Pallete:
 background colour: #0b0c10; 
 block background: #1f2833;
