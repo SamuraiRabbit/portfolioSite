@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo:300,700|Roboto:300,700">
     <title>Christian Doyle - Contact</title>
 </head>
@@ -25,10 +25,25 @@
         <section id="contact">
 			<h2>Contact Me</h2>		
 			<article class="content-box">
-				<p>Drop me an email at: doyaldinho@gmail.com</p><br>
-				<p>Or hit me up on <a href="https://github.com/SamuraiRabbit" target="_blank">GitHub</a>.</p>
+				<p>To get in touch, fill out the contact beform below. Or hit me up on <a href="https://github.com/SamuraiRabbit" target="_blank">GitHub</a>.</p>
 			</article>
-		
+			<article>
+				<form action="https://formsubmit.co/494233f27764d4e419296de3b3fa11fb" method="POST" class="form-grid">
+					<label id="nameLabel" for="name">Name:</label>
+					<input type="text" id="nameInput" name="name" placeholder="Your name..." autocomplete="off" required>
+					<br>
+					<label id="emailLabel" for="email">Email:</label>
+					<input type="email" id="emailInput" name="email" placeholder="Your email address..." autocomplete="off" required>
+					<br>
+					<label id="messageLabel" for="message">Message:</label>
+					<textarea name="message" id="messageInput" cols="30" rows="10" placeholder="Your message..."></textarea>
+					<br>
+					<input type="submit" id="submit" name="submit" value="Submit">
+					<input type="hidden" name="_next" value="https://samurairabbit.github.io/thanks.html">
+					<input type="hidden" name="_subject" value="New Website Contact!">
+					<input type="text" name="_honey" style="display:none">
+				</form>
+			</article>
 		</section>
     </main>
 

@@ -23,7 +23,6 @@ The site consist of three pages:
 * HTML ![html](./images/htmlSmall.png)
 * JavaScript ![JavaScript](./images/javascriptSmall.png)
 * CSS ![css](./images/cssSmall.png)
-* PHP ![php](./images/phpSmall.png)
 
 ## Setup
 * No setup required. Visit the site [here](https://samurairabbit.github.io/).
@@ -34,13 +33,10 @@ The site consist of three pages:
 
 ### Known Issues
 
-* No contact form on contact page.
-* Alignment and text overflow issues on mobile.
+* None at the moment.
 
 ## Room for Improvement
 
-* Add contact form to contact page.
-* Use media queries to improve mobile viewing experience.
 * Improve styling?
 
 ## Acknowledgements
