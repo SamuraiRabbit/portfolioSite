@@ -33,10 +33,11 @@ The site consist of three pages:
 
 ### Known Issues
 
-* None at the moment.
+* Contact form styling is borked on mobile.
 
 ## Room for Improvement
 
+* Fix contact form styling on mobile
 * Improve styling?
 
 ## Acknowledgements
