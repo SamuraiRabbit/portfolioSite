@@ -25,7 +25,7 @@ The site consist of three pages:
 * CSS ![css](./images/cssSmall.png)
 
 ## Setup
-* No setup required. Visit the site [here](https://samurairabbit.github.io/).
+* No setup required. Visit the site [here](https://www.christianpdoyle.co.uk/).
 
 ## Project Status
 
